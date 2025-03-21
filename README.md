@@ -92,7 +92,8 @@ More details regarding the metrics and methods used for the analysis can be foun
 
 We welcome contributions! Since the package is still in the `0.1.1-dev` stage, please be aware that there may be frequent changes to the API.
 
-Feel free to fork the repo and submit pull requests. Ensure your changes are compatible with the current state of the development branch.
+Feel free to fork the repo and submit pull requests. Ensure your changes
+are compatible with the current state of the main branch.
 
 > **Note**: This version is not stable yet and may change significantly.
 

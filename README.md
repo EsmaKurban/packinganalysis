@@ -9,10 +9,10 @@ A Python package for structural analysis of granular particle packings in 3D. It
     - Radial distribution function.
 
 ## Installation
-This package is in development and may not be stable. You can install the development version via pip like so:
+This package is in development and may not be stable.
 
 ```bash
-pip install git+https://github.com/EsmaKurban/packinganalysis.git@dev#egg=packinganalysis
+pip install git+https://github.com/EsmaKurban/packinganalysis.git#egg=packinganalysis
 ```
 Or if you have cloned the repository:
 

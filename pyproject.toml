@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packinganalysis"
+version = "0.1.0-dev"
+description = "A Python package for structural analysis of granular particle packings in 3D."
+readme = "README.md"
+authors = [
+  {name = "Esma Kurban", email = "esma.kurban92@gmail.com"}
+]
+maintainers = [
+  {name = "Esma Kurban", email = "esma.kurban92@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+]
+license = {text = "MIT license"}
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+    "coverage",  # testing
+    "mypy",     # linting
+    "pytest",  # testing
+    "ruff"    # linting
+]
+
+[project.urls]
+bugs = "https://github.com/EsmaKurban/packinganalysis/issues"
+changelog = "https://github.com/EsmaKurban/packinganalysis/blob/master/changelog.md"
+homepage = "https://github.com/EsmaKurban/packinganalysis"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"packinganalysis" = ["data/*"]  # Optional: Only if you have data files to include
+
+# Mypy Configuration
+[tool.mypy]
+files = "."
+strict = true
+warn_unreachable = true
+warn_no_return = true
+

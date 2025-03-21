@@ -1,5 +1,5 @@
 # packinganalysis
-**Version**: `0.1.0-dev` (In Development)
+**Version**: `0.1.1-dev` (In Development)
 
 A Python package for structural analysis of granular particle packings in 3D. It provides the following:
 
@@ -90,7 +90,7 @@ More details regarding the metrics and methods used for the analysis can be foun
 
 ## Contributing
 
-We welcome contributions! Since the package is still in the `0.1.0-dev` stage, please be aware that there may be frequent changes to the API.
+We welcome contributions! Since the package is still in the `0.1.1-dev` stage, please be aware that there may be frequent changes to the API.
 
 Feel free to fork the repo and submit pull requests. Ensure your changes are compatible with the current state of the development branch.
 

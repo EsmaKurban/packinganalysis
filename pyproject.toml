@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "packinganalysis"
-version = "0.1.0-dev"
+version = "0.1.1-dev"
 description = "A Python package for structural analysis of granular particle packings in 3D."
 readme = "README.md"
 authors = [
